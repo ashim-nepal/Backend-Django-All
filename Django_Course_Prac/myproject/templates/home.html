@@ -1,4 +1,16 @@
-<!DOCTYPE html>
+{% extends 'layout.html' %}
+{% block title %}
+    Home
+{% endblock %}
+
+{% block content %}
+    <h1>Home</h1>
+    <p>Check out <a href="/about">About</a> page!</p>
+{% endblock %}
+
+
+
+{% comment %} <!DOCTYPE html>
 {% load static %}
 <html lang="en">
     <head>
@@ -10,4 +22,4 @@
         <p>Also go to <a href="/about">About</a> page!</p>
     </body>
 
-</html>
+</html> {% endcomment %}
